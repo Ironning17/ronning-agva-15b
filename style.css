@@ -1,0 +1,164 @@
+/* Styles go here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  font-family: Verdana, Sans-serif;
+  
+}
+
+
+h2,
+h3,
+h4 {
+  margin: 0 0 -.7em 0;
+  color:black;
+}
+
+.box-container {
+  display:flex;
+  justify-content:space-between;
+  max-width: 800px;
+  margin: 40px auto 20px auto;
+}   
+
+
+.box-1{
+  width: 250px;
+  border:10px;
+  padding:20px 0 35px 0;
+  background-color:darkorange;
+  text-align: center;
+  font-size: 12px;
+  position:relative;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s, 1s;
+  
+}
+
+.box-1 a:link,a:hover,a:visited,a:active {
+  text-decoration:none;
+}
+
+.box-1:hover { 
+  opacity: 1;
+  background-color: red;
+  border-radius: 35%;
+}
+
+.box-2{
+  
+  width: 250px;
+  border:10px;
+  padding:20px 0 35px 0;
+  background-color:darkorange;
+  text-align: center;
+  font-size: 12px;
+  position:relative;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s, 1s;
+  
+}
+
+.box-2:hover {
+  opacity: 1;
+  background-color: red;
+  border-radius: 35%;
+}
+
+.box-3{
+  
+  width: 250px;
+  border:10px;
+  padding:20px 0 35px 0;
+  background-color:darkorange;
+  text-align: center;
+  font-size: 12px;
+  position:relative;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s, 1s;
+
+}
+
+.box-3:hover{
+  opacity: 1;
+  background-color: red;
+  border-radius: 35%;
+}
+  
+.column-layout {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  line-height: 1.65;
+  display: flex;
+  
+}
+
+.main-column {
+  flex:3;
+  order:1
+  
+}
+
+.sidebar-two {
+  flex:1;
+  order:2
+  
+}
+
+.call-outs-container {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.call-out {
+  padding: 40px;
+  width: 45%; 
+  margin-bottom: 10px;
+  
+  
+}
+
+.call-out:nth-child(1) {
+  background-color: darkorange;
+  
+}
+.call-out:nth-child(2) {
+  background-color: sandybrown;
+}
+
+button {
+  background-color:blue;
+  color: white;
+  height: 40px;
+  width: 80px;
+  padding:5px;
+  margin:10px;
+}
+
+.contact-menu {
+  background-color:white;
+  display:flex;
+  flex-direction:row;
+  max-width:800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  line-height:1.65;
+}
+
+.contact-item {
+  flex:3;
+  order:1;
+}
+.sidebar-three {
+  flex:2;
+  order:2;
+}
